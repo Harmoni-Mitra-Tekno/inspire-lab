@@ -1,19 +1,27 @@
 import { Link } from "react-router-dom";
 import Logo from "./logo";
+import PillNav from "./animations/pillNav";
 
 function Navbar () {
     return (
-        <nav className="p-5 bg-black text-white fixed top-0 left-0 w-full z-9999">
-            <div className="flex justify-between items-center w-full">
-                <Logo/>
-                <ul className="flex list-none m-0 p-0">
-                    <NavbarListItem href="/">Home</NavbarListItem>
-                    <NavbarListItem href="/info">Info</NavbarListItem>
-                    <NavbarListItem href="/members">Members</NavbarListItem>
-                    <NavbarListItem href="/researh">Research</NavbarListItem>
-                    <NavbarListItem href="/publications">Publications</NavbarListItem>
-                </ul>
-            </div>
+        <nav className="p-10 fixed top-0 left-0 w-full z-9999 flex items-center justify-center">
+            <PillNav
+                logo={Logo}
+                logoAlt="Company Logo"
+                items={[
+                    { label: 'Home', href: '/' },
+                    { label: 'About', href: '/about' },
+                    { label: 'Services', href: '/services' },
+                    { label: 'Contact', href: '/contact' }
+                ]}
+                activeHref=""
+                className="custom-nav"
+                ease="power2.easeOut"
+                baseColor="#0a0a0a"
+                pillColor="#e9f5ff"
+                hoveredPillTextColor="#e9f5ff"
+                pillTextColor="#0a0a0a"
+            />
         </nav>
     );
 }
