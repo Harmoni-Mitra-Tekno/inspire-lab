@@ -1,4 +1,4 @@
-import logoFull from '../assets/logo-full.png'
+import logoFull from '../../public/logo-full.png'
 function Logo(){
     return(
         <img src={logoFull} width={580}></img>

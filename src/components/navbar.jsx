@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "../assets/logo-emblem.png";
+import Logo from "../../public/logo-emblem.png";
 import PillNav from "./animations/pillNav";
 
 function Navbar () {
