@@ -1,6 +1,7 @@
+import logoFull from '../assets/logo-full.png'
 function Logo(){
     return(
-        <h1 className="text-5xl font-bold">Inspire Lab</h1>
+        <img src={logoFull} width={580}></img>
     )
 }
 

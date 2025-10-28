@@ -9,7 +9,7 @@ function Map({className, markerPosition }){
             />
             <Marker position={markerPosition}>
                 <Popup>
-                    Inspire Lab
+                    INSPIRE Lab
                 </Popup>
             </Marker>
         </MapContainer>

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "./logo";
+import Logo from "../assets/logo-emblem.png";
 import PillNav from "./animations/pillNav";
 
 function Navbar () {
@@ -10,11 +10,12 @@ function Navbar () {
                 logoAlt="Company Logo"
                 items={[
                     { label: 'Home', href: '/' },
-                    { label: 'About', href: '/about' },
-                    { label: 'Services', href: '/services' },
-                    { label: 'Contact', href: '/contact' }
+                    { label: 'About', href: '#about' },
+                    { label: 'Members', href: '#members' },
+                    { label: 'Research', href: '#research' },
+                    { label: 'Publications', href: '#publication' }
                 ]}
-                activeHref=""
+                activeHref="#none"
                 className="custom-nav"
                 ease="power2.easeOut"
                 baseColor="#0a0a0a"

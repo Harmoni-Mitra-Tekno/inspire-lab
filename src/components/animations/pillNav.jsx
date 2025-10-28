@@ -236,19 +236,18 @@ const PillNav = ({
           <Link
             to={items[0].href}
             aria-label="Home"
-            onMouseEnter={handleLogoEnter}
             role="menuitem"
             ref={el => {
               logoRef.current = el;
             }}
-            className="rounded-full p-2 inline-flex items-center justify-center overflow-hidden"
+            className="rounded-full p-2 inline-flex items-center justify-center overflow"
             style={{
               width: 'var(--nav-h)',
               height: 'var(--nav-h)',
-              background: 'var(--base, #000)'
+              background: '#0a0a0a'
             }}
           >
-            <img src={logo} alt={logoAlt} ref={logoImgRef} className="w-full h-full object-cover block" />
+            <img src={logo} alt={logoAlt} ref={logoImgRef} className="w-full object-cover block" />
           </Link>
         ) : (
           <a
