@@ -219,8 +219,8 @@ const PillNav = ({
     ['--pill-bg']: pillColor,
     ['--hover-text']: hoveredPillTextColor,
     ['--pill-text']: resolvedPillTextColor,
-    ['--nav-h']: '42px',
-    ['--logo']: '36px',
+    ['--nav-h']: '55px',
+    ['--logo']: '42px',
     ['--pill-pad-x']: '18px',
     ['--pill-gap']: '3px'
   };
@@ -244,7 +244,7 @@ const PillNav = ({
             style={{
               width: 'var(--nav-h)',
               height: 'var(--nav-h)',
-              background: '#0a0a0a'
+              background: '#00000000'
             }}
           >
             <img src={logo} alt={logoAlt} ref={logoImgRef} className="w-full object-cover block" />
@@ -270,10 +270,10 @@ const PillNav = ({
 
         <div
           ref={navItemsRef}
-          className="relative items-center rounded-full hidden md:flex ml-2"
+          className="relative items-center rounded-full hidden md:flex ml-2 py-1.5"
           style={{
             height: 'var(--nav-h)',
-            background: 'var(--base, #000)'
+            background: '#00000000'
           }}
         >
           <ul
