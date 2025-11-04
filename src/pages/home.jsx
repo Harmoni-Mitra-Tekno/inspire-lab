@@ -97,7 +97,7 @@ function Home() {
                     speed={1}
                 />
             </div>
-            <div className="px-20 py-20">
+            <div className="px-20 py-10">
                 <ScrollReveal
                     baseOpacity={0}
                     enableBlur={true}
