@@ -16,7 +16,7 @@ function Headline(){
                                 animate={{opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 0.15 * index }}
                                 key={index}
-                                className="text-4xl md:text-6xl font-medium inline-block mr-1.5"
+                                className="text-3xl md:text-6xl font-medium inline-block mr-1.5"
                             >
                                 {word}
                             </motion.p>

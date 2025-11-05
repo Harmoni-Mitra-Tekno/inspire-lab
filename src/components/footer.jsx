@@ -2,7 +2,7 @@ import Logo from "./logo";
 
 function Footer(){
     return(
-        <footer className="w-full bg-[#0B0B0B] text-white text-center flex flex-col justify-center items-center gap-5 p-10 md:p-20">
+        <footer className="w-full bg-[#0B0B0B] text-white text-center flex flex-col justify-center items-center gap-5 p-5 md:p-20">
             <div className="flex flex-row justify-between items-center w-full">
                 <Logo/>
             </div>

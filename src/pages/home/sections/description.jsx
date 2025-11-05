@@ -2,7 +2,7 @@ import ScrollReveal from "../../../components/animations/scrollReveal.jsx";
 
 function Description(){
     return(
-        <div className="px-10 md:px-20 py-10 md:py-0">
+        <div className="px-10 md:px-20 py-0">
             <ScrollReveal
                 baseOpacity={0}
                 enableBlur={true}
