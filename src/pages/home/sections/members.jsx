@@ -4,7 +4,7 @@ import MemberData from "../../../datas/memberData"
 function Members(){
     const items = MemberData()
     return(
-        <div className="py-10 md:py-20 flex flex-col gap-10 md:gap-20 justify-center items-center">
+        <div id="members" className="py-10 md:py-20 flex flex-col gap-10 md:gap-20 justify-center items-center">
             <div className="px-5 md:px-20 text-3xl md:text-6xl font-semibold">
                 Meet The Members
             </div>

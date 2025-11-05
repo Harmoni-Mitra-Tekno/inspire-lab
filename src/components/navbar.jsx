@@ -9,13 +9,13 @@ function Navbar () {
                 logo={Logo}
                 logoAlt="Company Logo"
                 items={[
-                    { label: 'Home', href: '/' },
+                    { label: 'Home', href: '#home' },
                     { label: 'About', href: '#about' },
                     { label: 'Members', href: '#members' },
                     { label: 'Research', href: '#research' },
-                    { label: 'Publications', href: '#publication' }
+                    { label: 'Publications', href: '#publications' }
                 ]}
-                activeHref="#none"
+                activeHref="#sss"
                 className="custom-nav"
                 ease="power2.easeOut"
                 baseColor="#0a0a0a"

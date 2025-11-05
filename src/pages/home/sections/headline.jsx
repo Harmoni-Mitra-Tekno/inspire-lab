@@ -6,7 +6,7 @@ function Headline(){
     const headline = "Discover the Inspirational Research at Intelligent Signal Processing Research Group";
     const headlineWords = headline.split(" "); // Splitting the sentence into words
     return(
-        <div className="h-[550px] md:h-[800px]">
+        <div id='home' className="h-[550px] md:h-[800px]">
             <div className="flex flex-col top-[190px] md:top-[380px] absolute h-fit z-0 text-center w-full px-5 gap-15">
                 <div className="w-full flex flex-row justify-center items-center gap-10">
                     <div className="text-center">

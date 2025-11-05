@@ -4,7 +4,7 @@ import ResearchData from "../../../datas/researchData";
 function Research(){
     const items = ResearchData()
     return(
-        <div className="py-10 md:py-20 flex flex-col gap-4 lg:gap-10">
+        <div id="research" className="py-10 md:py-20 flex flex-col gap-4 lg:gap-10">
             <div className="px-10 md:px-20 text-3xl md:text-6xl font-semibold flex justify-center items-center text-center md:text-left">
                 Current Research Domains and Scope
             </div>

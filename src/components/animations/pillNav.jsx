@@ -240,7 +240,7 @@ const PillNav = ({
             ref={el => {
               logoRef.current = el;
             }}
-            className="rounded-full p-2 inline-flex items-center justify-center overflow"
+            className="p-2 inline-flex items-center justify-center overflow"
             style={{
               width: 'var(--nav-h)',
               height: 'var(--nav-h)',
@@ -253,18 +253,17 @@ const PillNav = ({
           <a
             href={items?.[0]?.href || '#'}
             aria-label="Home"
-            onMouseEnter={handleLogoEnter}
             ref={el => {
               logoRef.current = el;
             }}
-            className="rounded-full p-2 inline-flex items-center justify-center overflow-hidden"
+            className="p-2 inline-flex items-center justify-center overflow-hidden"
             style={{
               width: 'var(--nav-h)',
               height: 'var(--nav-h)',
-              background: 'var(--base, #000)'
+              background: '#00000000'
             }}
           >
-            <img src={logo} alt={logoAlt} ref={logoImgRef} className="w-full h-full object-cover block" />
+            <img src={logo} alt={logoAlt} ref={logoImgRef} className="w-full object-cover block" />
           </a>
         )}
 

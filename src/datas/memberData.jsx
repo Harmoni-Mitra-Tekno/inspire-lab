@@ -5,7 +5,7 @@ function MemberData(){
             title: "Griffani Megiyanto Rahmatullah",
             subtitle: "Researcher",
             gradient: "linear-gradient(180deg, #0926f4, #0a0a0a)",
-            url: "https://www.linkedin.com/in/griffani-megiyanto-rahmatullah-258224145/"
+            url: "https://megi-profile.vercel.app/"
         },
         {
             image: "/fadhlan-profile.jpeg",

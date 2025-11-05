@@ -2,7 +2,7 @@ import SpotlightCard from "../../../components/animations/spotlightCard.jsx";
 
 function Info(){
     return(
-        <div className="px-10 md:px-20 py-5 md:py-20 flex flex-col gap-10 md:gap-20 justify-center items-center">
+        <div id="about" className="px-10 md:px-20 py-5 md:py-20 flex flex-col gap-10 md:gap-20 justify-center items-center">
             <div className="text-3xl md:text-6xl font-semibold text-center lg:text-left">
                 Driving Innovation: What We Focus On
             </div>
