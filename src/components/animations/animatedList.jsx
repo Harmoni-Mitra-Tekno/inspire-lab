@@ -135,7 +135,7 @@ const AnimatedList = ({
             // }}
           >
             <div className={`p-4 bg-[#111] rounded-lg ${selectedIndex === index ? 'bg-[#222]' : ''} ${itemClassName}`}>
-              <p className="text-2xl text-[#e9f5ffde] m-0">{item}</p>
+              <p className="text-base md:text-2xl text-[#e9f5ffde] m-0">{item}</p>
             </div>
           </AnimatedItem>
         ))}

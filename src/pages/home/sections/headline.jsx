@@ -6,8 +6,8 @@ function Headline(){
     const headline = "Discover the Inspirational Research at Intelligent Signal Processing Research Group";
     const headlineWords = headline.split(" "); // Splitting the sentence into words
     return(
-        <div className="h-[800px]">
-            <div className="flex flex-col top-[380px] absolute h-fit z-0 text-center w-full px-5 gap-15">
+        <div className="h-[550px] md:h-[800px]">
+            <div className="flex flex-col top-[190px] md:top-[380px] absolute h-fit z-0 text-center w-full px-5 gap-15">
                 <div className="w-full flex flex-row justify-center items-center gap-10">
                     <div className="text-center">
                         {headlineWords.map((word, index) => (
@@ -16,7 +16,7 @@ function Headline(){
                                 animate={{opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 0.15 * index }}
                                 key={index}
-                                className="text-6xl font-medium inline-block mr-1.5"
+                                className="text-4xl md:text-6xl font-medium inline-block mr-1.5"
                             >
                                 {word}
                             </motion.p>
@@ -25,7 +25,7 @@ function Headline(){
                 </div>
                 <div className="w-full justify-center">
                     <TextType 
-                    className="text-left text-3xl font-light text-[#FCA311]"
+                    className="text-lg md:text-3xl font-light text-[#FCA311] text-center"
                     text={["Gain Insight and Drive Innovation with Intelligent Signal Processing"]}
                     typingSpeed={20}
                     deletingSpeed={20}
